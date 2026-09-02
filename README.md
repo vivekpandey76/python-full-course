@@ -11,6 +11,7 @@ Beginner-friendly Python notes and practice code. Every part has one markdown fi
 | 1 | Introduction to Python | [Introduction to python.md](Introduction%20to%20python.md) |
 | 2 | Variables & Data Types | [Variables and Data Types.md](Variables%20and%20Data%20Types.md) |
 | 3 | Type Conversion & User Input | [Type Conversion and User Input.md](Type%20Conversion%20and%20User%20Input.md) |
+| 4 | Operators | [Operators.md](Operators.md) |
 
 ### Part 1 — Introduction to Python
 What Python is, why it is worth learning, installing Python and VS Code, running your first program, comments, and how Python works internally (bytecode and the PVM).
@@ -21,6 +22,9 @@ Variables, assignment, naming rules, dynamic typing, the core data types (`int`,
 ### Part 3 — Type Conversion & User Input
 Implicit vs explicit conversion, `int()`, `float()`, `str()`, `bool()`, truthy and falsy values, taking input with `input()`, converting input to numbers, multiple inputs with `split()` and `map()`, and the common `TypeError` / `ValueError` mistakes.
 
+### Part 4 — Operators
+Operators and operands, arithmetic operators (`+ - * / // % **`), assignment shortcuts (`+=`, `-=` and the rest), comparison operators, logical `and` / `or` / `not`, short-circuiting, and operator precedence.
+
 ---
 
 ## Files in this repo
@@ -30,6 +34,7 @@ Implicit vs explicit conversion, `int()`, `float()`, `str()`, `bool()`, truthy a
 | `Introduction to python.md` | Part 1 notes |
 | `Variables and Data Types.md` | Part 2 notes |
 | `Type Conversion and User Input.md` | Part 3 notes |
+| `Operators.md` | Part 4 notes |
 | `script.py` | Working practice code for the current part |
 | `notes.txt` | Raw rough notes taken while learning |
 
