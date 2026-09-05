@@ -13,6 +13,7 @@ Beginner-friendly Python notes and practice code. Every part has one markdown fi
 | 3 | Type Conversion & User Input | [Type Conversion and User Input.md](Type%20Conversion%20and%20User%20Input.md) |
 | 4 | Operators | [Operators.md](Operators.md) |
 | 5 | Conditional Statements | [Conditional Statements.md](Conditional%20Statements.md) |
+| 6 | Loops | [Loops.md](Loops.md) |
 
 ### Part 1 — Introduction to Python
 What Python is, why it is worth learning, installing Python and VS Code, running your first program, comments, and how Python works internally (bytecode and the PVM).
@@ -29,6 +30,9 @@ Operators and operands, arithmetic operators (`+ - * / // % **`), assignment sho
 ### Part 5 — Conditional Statements
 Indentation and blocks, `if`, `else`, `elif` chains and why order matters, nested conditions, the one-line ternary operator, and using truthy / falsy values as conditions.
 
+### Part 6 — Loops
+Why loops exist, `for` loops, `range()` and why the stop value is excluded, `while` loops and infinite loops, `for` vs `while`, nested loops and patterns, `break`, `continue`, `pass`, and the loop `else`.
+
 ---
 
 ## Files in this repo
@@ -40,6 +44,7 @@ Indentation and blocks, `if`, `else`, `elif` chains and why order matters, neste
 | `Type Conversion and User Input.md` | Part 3 notes |
 | `Operators.md` | Part 4 notes |
 | `Conditional Statements.md` | Part 5 notes |
+| `Loops.md` | Part 6 notes |
 | `script.py` | Working practice code for the current part |
 | `notes.txt` | Raw rough notes taken while learning |
 

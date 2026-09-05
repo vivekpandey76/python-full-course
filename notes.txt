@@ -1,0 +1,85 @@
+Loops in Python
+
+1. Why Loops?
+   • A loop repeats a block of code so you don't have to write it again and again.
+   • Q → Print "Hello" 5 times using only print(). Now imagine 1000 times.
+   • Every loop needs 3 things: where to start, when to stop, how to move ahead.
+
+
+2. for
+   • Repeats the block once for every item it is given. Count is known in advance.
+   • Q → Print each character of the word "PYTHON" on a new line.
+
+
+3. range()
+   • Generates numbers for the for loop. The stop value is never included.
+   • range(stop) | range(start, stop) | range(start, stop, step)
+   • Q → Take a number from the user and print its multiplication table.
+
+
+4. while
+   • Repeats as long as the condition is True. Use it when the count is NOT known.
+   • Needs an update line inside, or it runs forever.
+   • Q → Keep asking the user for a number and keep adding it to a total.
+         Stop when they enter 0, then print the total.
+         Why not for here?
+   • Q → What happens if you forget to read the next number inside the loop?
+
+
+5. for vs while
+   • Known count → for.  Depends on a condition → while.
+   • Q → Which one for "print marks of 10 students"? Which one for
+         "keep asking the password until it is correct"?
+
+
+6. Nested Loops
+   • A loop inside a loop. The inner loop finishes fully for every single
+     turn of the outer loop.
+   • Q → Print this pattern:
+         *
+         * *
+         * * *
+         * * * *
+   Outer loop → controls the rows (lines)
+   Inner loop → controls what gets printed in each row
+
+
+7. break
+   • Stops the loop immediately and jumps out.
+   • Q → Print 1 to 10 but stop the loop as soon as the number 5 comes.
+
+
+8. continue
+   • Skips only the current turn and moves to the next one.
+   • Q → Print 1 to 10 but skip all multiples of 3.
+
+
+9. pass
+   • A placeholder that does nothing. Used when a block is required but the
+     code is not written yet.
+   • Q → Leave a loop body empty, show the error, then fix it with pass.
+   • pass = do nothing | continue = skip this turn | break = exit the loop
+
+
+10. Loop else
+   • The else block runs only if the loop finished WITHOUT hitting a break.
+   • Q → Search a number from 1 to 10. Print "Found" on break,
+         "Not found" from the else.
+
+
+Quick Revision
+   • for → known count | while → condition based
+   • range(start, stop, step) → stop is excluded
+   • break → exit | continue → skip | pass → do nothing
+   • loop else → runs only when no break happened
+
+
+Homework
+   1. Print the sum of the first n numbers.
+   2. Reverse a number: 1234 → 4321.
+   3. Count the vowels in a word entered by the user.
+   4. Print the reverse pattern:
+      * * * *
+      * * *
+      * *
+      *
