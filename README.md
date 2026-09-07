@@ -14,6 +14,7 @@ Beginner-friendly Python notes and practice code. Every part has one markdown fi
 | 4 | Operators | [Operators.md](Operators.md) |
 | 5 | Conditional Statements | [Conditional Statements.md](Conditional%20Statements.md) |
 | 6 | Loops | [Loops.md](Loops.md) |
+| 7 | Strings | [Strings.md](Strings.md) |
 
 ### Part 1 — Introduction to Python
 What Python is, why it is worth learning, installing Python and VS Code, running your first program, comments, and how Python works internally (bytecode and the PVM).
@@ -33,6 +34,9 @@ Indentation and blocks, `if`, `else`, `elif` chains and why order matters, neste
 ### Part 6 — Loops
 Why loops exist, `for` loops, `range()` and why the stop value is excluded, `while` loops and infinite loops, `for` vs `while`, nested loops and patterns, `break`, `continue`, `pass`, and the loop `else`.
 
+### Part 7 — Strings
+Quotes and multi-line strings, `len()`, indexing and negative indexing, slicing with `s[start:end:step]`, reversing with `s[::-1]`, the `+` / `*` / `in` operators, the common string methods, `split()` and `join()`, f-strings, and string immutability.
+
 ---
 
 ## Files in this repo
@@ -45,6 +49,7 @@ Why loops exist, `for` loops, `range()` and why the stop value is excluded, `whi
 | `Operators.md` | Part 4 notes |
 | `Conditional Statements.md` | Part 5 notes |
 | `Loops.md` | Part 6 notes |
+| `Strings.md` | Part 7 notes |
 | `script.py` | Working practice code for the current part |
 | `notes.txt` | Raw rough notes taken while learning |
 
