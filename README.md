@@ -15,6 +15,7 @@ Beginner-friendly Python notes and practice code. Every part has one markdown fi
 | 5 | Conditional Statements | [Conditional Statements.md](Conditional%20Statements.md) |
 | 6 | Loops | [Loops.md](Loops.md) |
 | 7 | Strings | [Strings.md](Strings.md) |
+| 8 | Lists | [Lists.md](Lists.md) |
 
 ### Part 1 — Introduction to Python
 What Python is, why it is worth learning, installing Python and VS Code, running your first program, comments, and how Python works internally (bytecode and the PVM).
@@ -37,6 +38,9 @@ Why loops exist, `for` loops, `range()` and why the stop value is excluded, `whi
 ### Part 7 — Strings
 Quotes and multi-line strings, `len()`, indexing and negative indexing, slicing with `s[start:end:step]`, reversing with `s[::-1]`, the `+` / `*` / `in` operators, the common string methods, `split()` and `join()`, f-strings, and string immutability.
 
+### Part 8 — Lists
+Creating and accessing lists, indexing and slicing, mutability, adding elements with `append()` / `insert()` / `extend()`, removing with `remove()` / `pop()` / `del`, the common list methods, `sort()` vs `sorted()`, `reverse()`, nested lists, why `b = a` is not a copy, list comprehension, and two interview problems — second largest number and removing duplicates while keeping the order.
+
 ---
 
 ## Files in this repo
@@ -50,8 +54,9 @@ Quotes and multi-line strings, `len()`, indexing and negative indexing, slicing 
 | `Conditional Statements.md` | Part 5 notes |
 | `Loops.md` | Part 6 notes |
 | `Strings.md` | Part 7 notes |
+| `Lists.md` | Part 8 notes |
 | `script.py` | Working practice code for the current part |
-| `notes.txt` | Raw rough notes taken while learning |
+| `notes.txt` | Raw rough notes for the part being recorded |
 
 ---
 
