@@ -16,6 +16,7 @@ Beginner-friendly Python notes and practice code. Every part has one markdown fi
 | 6 | Loops | [Loops.md](Loops.md) |
 | 7 | Strings | [Strings.md](Strings.md) |
 | 8 | Lists | [Lists.md](Lists.md) |
+| 9 | Tuples | [Tuples.md](Tuples.md) |
 
 ### Part 1 — Introduction to Python
 What Python is, why it is worth learning, installing Python and VS Code, running your first program, comments, and how Python works internally (bytecode and the PVM).
@@ -41,6 +42,9 @@ Quotes and multi-line strings, `len()`, indexing and negative indexing, slicing 
 ### Part 8 — Lists
 Creating and accessing lists, indexing and slicing, mutability, adding elements with `append()` / `insert()` / `extend()`, removing with `remove()` / `pop()` / `del`, the common list methods, `sort()` vs `sorted()`, `reverse()`, nested lists, why `b = a` is not a copy, list comprehension, and two interview problems — second largest number and removing duplicates while keeping the order.
 
+### Part 9 — Tuples
+Creating tuples and why the comma matters more than the brackets, single item tuples, indexing and slicing, immutability and the `TypeError` it raises, the only two methods `count()` and `index()`, changing a tuple through `list()` and `tuple()`, why `sorted()` returns a list, unpacking and swapping, `*rest` unpacking, why a mutable item inside a tuple can still change, tuple vs list, and four interview questions.
+
 ---
 
 ## Files in this repo
@@ -55,6 +59,7 @@ Creating and accessing lists, indexing and slicing, mutability, adding elements 
 | `Loops.md` | Part 6 notes |
 | `Strings.md` | Part 7 notes |
 | `Lists.md` | Part 8 notes |
+| `Tuples.md` | Part 9 notes |
 | `script.py` | Working practice code for the current part |
 | `notes.txt` | Raw rough notes for the part being recorded |
 
