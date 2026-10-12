@@ -17,6 +17,7 @@ Beginner-friendly Python notes and practice code. Every part has one markdown fi
 | 7 | Strings | [Strings.md](Strings.md) |
 | 8 | Lists | [Lists.md](Lists.md) |
 | 9 | Tuples | [Tuples.md](Tuples.md) |
+| 10 | Sets | [Sets.md](Sets.md) |
 
 ### Part 1 — Introduction to Python
 What Python is, why it is worth learning, installing Python and VS Code, running your first program, comments, and how Python works internally (bytecode and the PVM).
@@ -45,6 +46,9 @@ Creating and accessing lists, indexing and slicing, mutability, adding elements 
 ### Part 9 — Tuples
 Creating tuples and why the comma matters more than the brackets, single item tuples, indexing and slicing, immutability and the `TypeError` it raises, the only two methods `count()` and `index()`, changing a tuple through `list()` and `tuple()`, why `sorted()` returns a list, unpacking and swapping, `*rest` unpacking, why a mutable item inside a tuple can still change, tuple vs list, and four interview questions.
 
+### Part 10 — Sets
+Creating sets, unique values and no order, why `{}` is a dict and `set()` is an empty set, no indexing, only immutable items, `add()` / `update()`, `remove()` vs `discard()`, `pop()` and `clear()`, union / intersection / difference / symmetric difference, subset and superset checks, `frozenset`, set vs list vs tuple, and five interview questions.
+
 ---
 
 ## Files in this repo
@@ -60,6 +64,7 @@ Creating tuples and why the comma matters more than the brackets, single item tu
 | `Strings.md` | Part 7 notes |
 | `Lists.md` | Part 8 notes |
 | `Tuples.md` | Part 9 notes |
+| `Sets.md` | Part 10 notes |
 | `script.py` | Working practice code for the current part |
 | `notes.txt` | Raw rough notes for the part being recorded |
 
