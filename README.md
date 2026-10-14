@@ -18,6 +18,7 @@ Beginner-friendly Python notes and practice code. Every part has one markdown fi
 | 8 | Lists | [Lists.md](Lists.md) |
 | 9 | Tuples | [Tuples.md](Tuples.md) |
 | 10 | Sets | [Sets.md](Sets.md) |
+| 11 | Dictionaries | [Dictionaries.md](Dictionaries.md) |
 
 ### Part 1 — Introduction to Python
 What Python is, why it is worth learning, installing Python and VS Code, running your first program, comments, and how Python works internally (bytecode and the PVM).
@@ -49,6 +50,9 @@ Creating tuples and why the comma matters more than the brackets, single item tu
 ### Part 10 — Sets
 Creating sets, unique values and no order, why `{}` is a dict and `set()` is an empty set, no indexing, only immutable items, `add()` / `update()`, `remove()` vs `discard()`, `pop()` and `clear()`, union / intersection / difference / symmetric difference, subset and superset checks, `frozenset`, set vs list vs tuple, and five interview questions.
 
+### Part 11 — Dictionaries
+Key-value pairs, empty dict with `{}` and `dict()`, unique keys and why the last duplicate wins, which types can be keys, `[]` vs `get()` and avoiding `KeyError`, adding and changing items, merging with `update()`, `pop()` / `popitem()` / `del` / `clear()`, `keys()` / `values()` / `items()`, looping with `for k, v in d.items()`, nested dictionaries, dictionary comprehension with conditions, and five interview questions.
+
 ---
 
 ## Files in this repo
@@ -65,6 +69,7 @@ Creating sets, unique values and no order, why `{}` is a dict and `set()` is an 
 | `Lists.md` | Part 8 notes |
 | `Tuples.md` | Part 9 notes |
 | `Sets.md` | Part 10 notes |
+| `Dictionaries.md` | Part 11 notes |
 | `script.py` | Working practice code for the current part |
 | `notes.txt` | Raw rough notes for the part being recorded |
 
