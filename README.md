@@ -19,6 +19,7 @@ Beginner-friendly Python notes and practice code. Every part has one markdown fi
 | 9 | Tuples | [Tuples.md](Tuples.md) |
 | 10 | Sets | [Sets.md](Sets.md) |
 | 11 | Dictionaries | [Dictionaries.md](Dictionaries.md) |
+| 12 | Interview Questions on Collections | [Interview Questions on Collections.md](Interview%20Questions%20on%20Collections.md) |
 
 ### Part 1 — Introduction to Python
 What Python is, why it is worth learning, installing Python and VS Code, running your first program, comments, and how Python works internally (bytecode and the PVM).
@@ -53,6 +54,9 @@ Creating sets, unique values and no order, why `{}` is a dict and `set()` is an 
 ### Part 11 — Dictionaries
 Key-value pairs, empty dict with `{}` and `dict()`, unique keys and why the last duplicate wins, which types can be keys, `[]` vs `get()` and avoiding `KeyError`, adding and changing items, merging with `update()`, `pop()` / `popitem()` / `del` / `clear()`, `keys()` / `values()` / `items()`, looping with `for k, v in d.items()`, nested dictionaries, dictionary comprehension with conditions, and five interview questions.
 
+### Part 12 — Interview Questions on Collections
+List vs tuple vs dictionary vs set and when to use which, counting character frequency, common elements between two lists, merging dictionaries and adding values, grouping words by length, anagram check, list and dictionary comprehension, set vs `frozenset`, and the Two Sum problem.
+
 ---
 
 ## Files in this repo
@@ -70,6 +74,7 @@ Key-value pairs, empty dict with `{}` and `dict()`, unique keys and why the last
 | `Tuples.md` | Part 9 notes |
 | `Sets.md` | Part 10 notes |
 | `Dictionaries.md` | Part 11 notes |
+| `Interview Questions on Collections.md` | Part 12 notes |
 | `script.py` | Working practice code for the current part |
 | `notes.txt` | Raw rough notes for the part being recorded |
 
