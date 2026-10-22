@@ -20,6 +20,7 @@ Beginner-friendly Python notes and practice code. Every part has one markdown fi
 | 10 | Sets | [Sets.md](Sets.md) |
 | 11 | Dictionaries | [Dictionaries.md](Dictionaries.md) |
 | 12 | Interview Questions on Collections | [Interview Questions on Collections.md](Interview%20Questions%20on%20Collections.md) |
+| 13 | Functions | [Functions.md](Functions.md) |
 
 ### Part 1 — Introduction to Python
 What Python is, why it is worth learning, installing Python and VS Code, running your first program, comments, and how Python works internally (bytecode and the PVM).
@@ -57,6 +58,9 @@ Key-value pairs, empty dict with `{}` and `dict()`, unique keys and why the last
 ### Part 12 — Interview Questions on Collections
 List vs tuple vs dictionary vs set and when to use which, counting character frequency, common elements between two lists, merging dictionaries and adding values, grouping words by length, anagram check, list and dictionary comprehension, set vs `frozenset`, and the Two Sum problem.
 
+### Part 13 — Functions
+Defining and calling functions, parameters vs arguments, `return` vs `print` and why a function without `return` gives `None`, returning multiple values as a tuple, positional and keyword arguments, default arguments and the mutable default trap, `*args`, `**kwargs`, the order of parameters, recursion basics with factorial and sum, and five interview questions.
+
 ---
 
 ## Files in this repo
@@ -75,6 +79,7 @@ List vs tuple vs dictionary vs set and when to use which, counting character fre
 | `Sets.md` | Part 10 notes |
 | `Dictionaries.md` | Part 11 notes |
 | `Interview Questions on Collections.md` | Part 12 notes |
+| `Functions.md` | Part 13 notes |
 | `script.py` | Working practice code for the current part |
 | `notes.txt` | Raw rough notes for the part being recorded |
 
