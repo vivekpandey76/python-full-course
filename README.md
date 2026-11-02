@@ -21,6 +21,7 @@ Beginner-friendly Python notes and practice code. Every part has one markdown fi
 | 11 | Dictionaries | [Dictionaries.md](Dictionaries.md) |
 | 12 | Interview Questions on Collections | [Interview Questions on Collections.md](Interview%20Questions%20on%20Collections.md) |
 | 13 | Functions | [Functions.md](Functions.md) |
+| 14 | Scope & Lambda | [Scope and Lambda.md](Scope%20and%20Lambda.md) |
 
 ### Part 1 — Introduction to Python
 What Python is, why it is worth learning, installing Python and VS Code, running your first program, comments, and how Python works internally (bytecode and the PVM).
@@ -61,6 +62,9 @@ List vs tuple vs dictionary vs set and when to use which, counting character fre
 ### Part 13 — Functions
 Defining and calling functions, parameters vs arguments, `return` vs `print` and why a function without `return` gives `None`, returning multiple values as a tuple, positional and keyword arguments, default arguments and the mutable default trap, `*args`, `**kwargs`, the order of parameters, recursion basics with factorial and sum, and five interview questions.
 
+### Part 14 — Scope & Lambda
+Local and global scope, why assigning inside a function creates a new local, `global` and the `UnboundLocalError`, `nonlocal` for nested functions, the LEGB lookup order, lambda functions, lambda as a `sorted()` key, `map()`, `filter()`, map vs filter, and five interview questions.
+
 ---
 
 ## Files in this repo
@@ -80,6 +84,7 @@ Defining and calling functions, parameters vs arguments, `return` vs `print` and
 | `Dictionaries.md` | Part 11 notes |
 | `Interview Questions on Collections.md` | Part 12 notes |
 | `Functions.md` | Part 13 notes |
+| `Scope and Lambda.md` | Part 14 notes |
 | `script.py` | Working practice code for the current part |
 | `notes.txt` | Raw rough notes for the part being recorded |
 
