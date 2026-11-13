@@ -22,6 +22,7 @@ Beginner-friendly Python notes and practice code. Every part has one markdown fi
 | 12 | Interview Questions on Collections | [Interview Questions on Collections.md](Interview%20Questions%20on%20Collections.md) |
 | 13 | Functions | [Functions.md](Functions.md) |
 | 14 | Scope & Lambda | [Scope and Lambda.md](Scope%20and%20Lambda.md) |
+| 15 | Modules | [modules.md](modules.md) |
 
 ### Part 1 — Introduction to Python
 What Python is, why it is worth learning, installing Python and VS Code, running your first program, comments, and how Python works internally (bytecode and the PVM).
@@ -65,6 +66,9 @@ Defining and calling functions, parameters vs arguments, `return` vs `print` and
 ### Part 14 — Scope & Lambda
 Local and global scope, why assigning inside a function creates a new local, `global` and the `UnboundLocalError`, `nonlocal` for nested functions, the LEGB lookup order, lambda functions, lambda as a `sorted()` key, `map()`, `filter()`, map vs filter, and five interview questions.
 
+### Part 15 — Modules
+What a module is, making your own `calculator.py` and importing it, why importing runs top-level code and how `if __name__ == "__main__":` fixes it, the four ways to import and why to avoid `import *`, the `math` module (`sqrt`, `pow`, `ceil`, `floor`), `random` (`randint`, `choice`, `shuffle`), `datetime` (`strftime`, `timedelta`), `os` (`getcwd`, `listdir`, `mkdir`, `path.exists`), and six interview questions.
+
 ---
 
 ## Files in this repo
@@ -85,6 +89,7 @@ Local and global scope, why assigning inside a function creates a new local, `gl
 | `Interview Questions on Collections.md` | Part 12 notes |
 | `Functions.md` | Part 13 notes |
 | `Scope and Lambda.md` | Part 14 notes |
+| `modules.md` | Part 15 notes |
 | `script.py` | Working practice code for the current part |
 | `notes.txt` | Raw rough notes for the part being recorded |
 
