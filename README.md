@@ -23,6 +23,7 @@ Beginner-friendly Python notes and practice code. Every part has one markdown fi
 | 13 | Functions | [Functions.md](Functions.md) |
 | 14 | Scope & Lambda | [Scope and Lambda.md](Scope%20and%20Lambda.md) |
 | 15 | Modules | [modules.md](modules.md) |
+| 16 | Packages, pip & Virtual Environment | [Packages pip and Virtual Environment.md](Packages%20pip%20and%20Virtual%20Environment.md) |
 
 ### Part 1 — Introduction to Python
 What Python is, why it is worth learning, installing Python and VS Code, running your first program, comments, and how Python works internally (bytecode and the PVM).
@@ -69,6 +70,9 @@ Local and global scope, why assigning inside a function creates a new local, `gl
 ### Part 15 — Modules
 What a module is, making your own `calculator.py` and importing it, why importing runs top-level code and how `if __name__ == "__main__":` fixes it, the four ways to import and why to avoid `import *`, the `math` module (`sqrt`, `pow`, `ceil`, `floor`), `random` (`randint`, `choice`, `shuffle`), `datetime` (`strftime`, `timedelta`), `os` (`getcwd`, `listdir`, `mkdir`, `path.exists`), and six interview questions.
 
+### Part 16: Packages, pip & Virtual Environment
+Module vs package vs library, making a `shop` package with `__init__.py`, why `__init__.py` code runs on import, the ways to import from a package, installing and removing packages with `pip`, `pip list` / `pip show`, saving and restoring with `pip freeze > requirements.txt` and `pip install -r`, why each project needs its own virtual environment, creating and activating a `venv` on macOS / Linux / Windows, keeping `venv/` out of Git, and six interview questions.
+
 ---
 
 ## Files in this repo
@@ -90,7 +94,10 @@ What a module is, making your own `calculator.py` and importing it, why importin
 | `Functions.md` | Part 13 notes |
 | `Scope and Lambda.md` | Part 14 notes |
 | `modules.md` | Part 15 notes |
-| `script.py` | Working practice code for the current part |
+| `Packages pip and Virtual Environment.md` | Part 16 notes |
+| `main.py` | Working practice code for the current part |
+| `shop/` | Example package used in Part 16 (`billing.py`, `discount.py`) |
+| `requirements.txt` | Packages for this project, install with `pip install -r requirements.txt` |
 | `notes.txt` | Raw rough notes for the part being recorded |
 
 ---
@@ -118,8 +125,8 @@ Select your interpreter: `Ctrl + Shift + P` / `Cmd + Shift + P` → *Python: Sel
 ### 3. Run the code
 
 ```bash
-python script.py      # Windows
-python3 script.py     # macOS / Linux
+python main.py        # Windows
+python3 main.py       # macOS / Linux
 ```
 
 Or press the **Run** (▶) button in VS Code.
@@ -129,7 +136,7 @@ Or press the **Run** (▶) button in VS Code.
 ## How to Use These Notes
 
 1. Read the markdown file for the part you are on.
-2. Type the examples yourself in `script.py` — do not copy-paste. Typing is how it sticks.
+2. Type the examples yourself in `main.py` — do not copy-paste. Typing is how it sticks.
 3. Do the **Practice Questions** at the end of each file before moving on.
 4. Use the **Quick Recap** section to revise later.
 
@@ -139,4 +146,5 @@ Or press the **Run** (▶) button in VS Code.
 
 - Python 3.x
 - Any code editor (VS Code recommended)
-- No external libraries needed
+- Parts 1 to 15 need no external libraries
+- From Part 16 on, create a virtual environment and run `pip install -r requirements.txt`
