@@ -24,6 +24,7 @@ Beginner-friendly Python notes and practice code. Every part has one markdown fi
 | 14 | Scope & Lambda | [Scope and Lambda.md](Scope%20and%20Lambda.md) |
 | 15 | Modules | [modules.md](modules.md) |
 | 16 | Packages, pip & Virtual Environment | [Packages pip and Virtual Environment.md](Packages%20pip%20and%20Virtual%20Environment.md) |
+| 17 | File Handling | [File Handling.md](File%20Handling.md) |
 
 ### Part 1 — Introduction to Python
 What Python is, why it is worth learning, installing Python and VS Code, running your first program, comments, and how Python works internally (bytecode and the PVM).
@@ -73,6 +74,9 @@ What a module is, making your own `calculator.py` and importing it, why importin
 ### Part 16: Packages, pip & Virtual Environment
 Module vs package vs library, making a `shop` package with `__init__.py`, why `__init__.py` code runs on import, the ways to import from a package, installing and removing packages with `pip`, `pip list` / `pip show`, saving and restoring with `pip freeze > requirements.txt` and `pip install -r`, why each project needs its own virtual environment, creating and activating a `venv` on macOS / Linux / Windows, keeping `venv/` out of Git, and six interview questions.
 
+### Part 17: File Handling
+Why files keep data after the program stops, `open()` and the `"r"` / `"w"` / `"a"` modes, why `"w"` erases old content, always using `with` so the file closes itself, `write()` and adding `\n` yourself, `read()` / `readline()` / `readlines()` and looping line by line, `strip()`, saving and loading JSON with `json.dump()` and `json.load()`, the load → change → dump update pattern, real-life uses (uploads, logs, ETL, reports), and six interview questions.
+
 ---
 
 ## Files in this repo
@@ -95,6 +99,7 @@ Module vs package vs library, making a `shop` package with `__init__.py`, why `_
 | `Scope and Lambda.md` | Part 14 notes |
 | `modules.md` | Part 15 notes |
 | `Packages pip and Virtual Environment.md` | Part 16 notes |
+| `File Handling.md` | Part 17 notes |
 | `main.py` | Working practice code for the current part |
 | `shop/` | Example package used in Part 16 (`billing.py`, `discount.py`) |
 | `requirements.txt` | Packages for this project, install with `pip install -r requirements.txt` |
