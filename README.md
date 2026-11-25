@@ -25,6 +25,7 @@ Beginner-friendly Python notes and practice code. Every part has one markdown fi
 | 15 | Modules | [modules.md](modules.md) |
 | 16 | Packages, pip & Virtual Environment | [Packages pip and Virtual Environment.md](Packages%20pip%20and%20Virtual%20Environment.md) |
 | 17 | File Handling | [File Handling.md](File%20Handling.md) |
+| 18 | Exception Handling | [Exception Handling.md](Exception%20Handling.md) |
 
 ### Part 1 — Introduction to Python
 What Python is, why it is worth learning, installing Python and VS Code, running your first program, comments, and how Python works internally (bytecode and the PVM).
@@ -77,6 +78,9 @@ Module vs package vs library, making a `shop` package with `__init__.py`, why `_
 ### Part 17: File Handling
 Why files keep data after the program stops, `open()` and the `"r"` / `"w"` / `"a"` modes, why `"w"` erases old content, always using `with` so the file closes itself, `write()` and adding `\n` yourself, `read()` / `readline()` / `readlines()` and looping line by line, `strip()`, saving and loading JSON with `json.dump()` and `json.load()`, the load → change → dump update pattern, real-life uses (uploads, logs, ETL, reports), and six interview questions.
 
+### Part 18: Exception Handling
+What an exception is and how to read a traceback, the common exceptions (`ValueError`, `TypeError`, `ZeroDivisionError`, `KeyError` and more), `try` / `except` and why specific exceptions go before `Exception`, why to avoid a bare `except:`, `else` and `finally` and when each one runs, raising your own errors with `raise`, custom exceptions like `OutOfStockError`, the exception hierarchy, real-life uses, an ATM simulator homework, and seven interview questions.
+
 ---
 
 ## Files in this repo
@@ -100,6 +104,7 @@ Why files keep data after the program stops, `open()` and the `"r"` / `"w"` / `"
 | `modules.md` | Part 15 notes |
 | `Packages pip and Virtual Environment.md` | Part 16 notes |
 | `File Handling.md` | Part 17 notes |
+| `Exception Handling.md` | Part 18 notes |
 | `main.py` | Working practice code for the current part |
 | `shop/` | Example package used in Part 16 (`billing.py`, `discount.py`) |
 | `requirements.txt` | Packages for this project, install with `pip install -r requirements.txt` |
